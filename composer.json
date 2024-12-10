@@ -1,0 +1,21 @@
+{
+    "name": "casio-uk/module-websites",
+    "version": "1.0.0",
+    "description": "Create UK website",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-store": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CasioUk\\Websites\\": ""
+        }
+    }
+}
